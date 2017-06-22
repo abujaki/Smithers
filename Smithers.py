@@ -20,12 +20,18 @@ async def pong(): #Because Brandon decided to be cheeky
 async def roll(dice : str = '1d20'):
   try:
     rolls, limit = map(int, dice.split('d'))
+    result = []
+    summation = 0
   except Exception:
     await bot.say('Format has to be in NdN, Sir.')
     return
+  for r in range(rolls):
+      result.append(random.randint(1,limit))
+      summation += result[r]
 
-  result = ', '.join(str(random.randint(1, limit)) for r in range(rolls))
-  await bot.say('The result of your `' + dice +'` roll is `' + result + '`, Sir.')
+  result.sort()
+  result.reverse()
+  await bot.say('The result of the `' + dice + '` roll is `' + str(summation) + '`.\n The individual rolls are `' + str(result) + '`, Sir.')
 
 #Test for whisper function
 #@bot.command()

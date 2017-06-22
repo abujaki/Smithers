@@ -10,39 +10,36 @@ bot = commands.Bot(command_prefix='!', description=description)
 #Ping/Pongs
 @bot.command()
 async def ping():
-    await bot.say('Pong, Sir.')
+  '''Pong'''
+  await bot.say('Pong, Sir.')
 @bot.command()
 async def pong(): #Because Brandon decided to be cheeky
+  '''Ping'''
   await bot.say('Ping, Sir. However, I do believe you have it backwards.')
 
 #Dice Rolling. Presently supports one tuple of NdN
 @bot.command()
 async def roll(dice : str = '1d20'):
+  '''Rolls NdN dice'''
   try:
     rolls, limit = map(int, dice.split('d'))
-    result = []
-    summation = 0
+    if(limit <= 0):
+        await bot.say('Positive integers only, please.')
+        return
+    if(rolls == 1):
+       await bot.say('The result of the `d' + str(limit) + '` roll is `' + str(random.randint(1,limit)) + '`.')
+    else:
+      result = []
+      summation = 0
+      for r in range(rolls):
+        result.append(random.randint(1,limit))
+        summation += result[r]
+      result.sort()
+      result.reverse()
+      await bot.say('The result of the `' + dice + '` roll is `' + str(summation) + '`.\n The individual rolls are `' + str(result) + '`.')
   except Exception:
     await bot.say('Format has to be in NdN, Sir.')
     return
-  for r in range(rolls):
-      result.append(random.randint(1,limit))
-      summation += result[r]
-
-  result.sort()
-  result.reverse()
-  await bot.say('The result of the `' + dice + '` roll is `' + str(summation) + '`.\n The individual rolls are `' + str(result) + '`, Sir.')
-
-#Test for whisper function
-#@bot.command()
-#async def whisper(message):
-#    await bot.whisper('Yes, Sir.')
-
-#Trying to get Smithers to logout instead of timeout
-#@bot.command()
-#async def goodnight():
-#  await bot.say('At your command, I shall retire. Goodnight, Sir.')
-#  bot.logout()
 
 @bot.event
 async def on_ready():

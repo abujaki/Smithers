@@ -1,10 +1,19 @@
+'''
+Main file for SMITHERS discord bot
+'''
+
+__title__ = 'Smithers'
+__version__ = '0.0.3'
+__authors__=['abujaki']
+
 import discord
 from discord.ext import commands
 import Token
 import random
 
-description = '''Good day Sir. My name is Smithers, and I am here to serve.'''
+from Games import dice
 
+description = '''Good day Sir. My name is Smithers, and I am here to serve.'''
 bot = commands.Bot(command_prefix='!', description=description)
 
 #Ping/Pongs
@@ -19,33 +28,18 @@ async def pong(): #Because Brandon decided to be cheeky
 
 #Dice Rolling. Presently supports one tuple of NdN
 @bot.command()
-async def roll(dice : str = '1d20'):
+async def roll(NdN : str = '1d20'):
   '''Rolls NdN dice'''
-  try:
-    rolls, limit = map(int, dice.split('d'))
-    if(limit <= 0):
-        await bot.say('Positive integers only, please.')
-        return
-    if(rolls == 1):
-       await bot.say('The result of the `d' + str(limit) + '` roll is `' + str(random.randint(1,limit)) + '`.')
-    else:
-      result = []
-      summation = 0
-      for r in range(rolls):
-        result.append(random.randint(1,limit))
-        summation += result[r]
-      result.sort()
-      result.reverse()
-      await bot.say('The result of the `' + dice + '` roll is `' + str(summation) + '`.\n The individual rolls are `' + str(result) + '`.')
-  except Exception:
-    await bot.say('Format has to be in NdN, Sir.')
-    return
+  await bot.say(dice.roll(NdN))
 
 @bot.event
 async def on_ready():
-  print('Logged in as')
-  print(bot.user.name)
-  print(bot.user.id)
+  print('------')
+  print('[INFO] Logged in as ' + bot.user.name)
+  print('[INFO] Client ID: ' + bot.user.id)
   print('------')
 
+#For security purposes, the token is saved as a string literal in Token.__token__
+#Token.py has been added to the .gitignore so it does not get posted publicly.
+#This function launches the bot and connects it to the server.
 bot.run(Token.__token__)

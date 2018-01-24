@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="500"
+   height="500"
+   viewBox="0 0 132.29167 132.29167"
+   version="1.1"
+   id="svg1075"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="ProjIcon.svg"
+   inkscape:export-filename="C:\Users\Stanleo\Documents\GitHub\Smithers\ProjIcon.png"
+   inkscape:export-xdpi="95.999992"
+   inkscape:export-ydpi="95.999992">
+  <title
+     id="title1883">Smithers Project Icon</title>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="253.04117"
+     inkscape:cy="87.266806"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1672"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1" />
+  <defs
+     id="defs1069">
+    <inkscape:perspective
+       id="perspective1077"
+       inkscape:persp3d-origin="66.145835 : 44.097223 : 1"
+       inkscape:vp_z="132.29167 : 66.145835 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 66.145835 : 1"
+       sodipodi:type="inkscape:persp3d" />
+  </defs>
+  <metadata
+     id="metadata1072">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Smithers Project Icon</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,-164.70834)"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <g
+       id="g1237"
+       inkscape:label="Icosahedron:x0.00:x12.80:x57.00:x0.00:x0.00:x0.00"
+       transform="matrix(0.46440794,0,0,0.46440794,65.855915,209.4031)">
+      <path
+         id="path1217"
+         inkscape:label="Face:8"
+         style="fill:#b40000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linejoin:round;stroke-opacity:1"
+         d="M -85.065081,-39.916492 -26.286556,-67.851703 0,-89.255991 Z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path1219"
+         inkscape:label="Face:18"
+         style="fill:#d40000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linejoin:round;stroke-opacity:1"
+         d="m -85.065081,-39.916492 16.245985,62.568074 42.53254,-90.503285 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path1221"
+         inkscape:label="Face:14"
+         style="fill:#8e0000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linejoin:round;stroke-opacity:1"
+         d="M 85.065081,39.916492 68.819096,-57.181402 26.286556,11.981281 Z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path1223"
+         inkscape:label="Face:0"
+         style="fill:#ab0000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linejoin:round;stroke-opacity:1"
+         d="M 0,89.255991 26.286556,11.981281 -68.819096,22.651582 Z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path1225"
+         inkscape:label="Face:1"
+         style="fill:#8d0000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linejoin:round;stroke-opacity:1"
+         d="M 0,89.255991 -68.819096,22.651582 v 34.52982 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path1227"
+         inkscape:label="Face:4"
+         style="fill:#820000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linejoin:round;stroke-opacity:1"
+         d="M 0,89.255991 85.065081,39.916492 26.286556,11.981281 Z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path1229"
+         inkscape:label="Face:7"
+         style="fill:#ac0000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linejoin:round;stroke-opacity:1"
+         d="M -26.286556,-67.851703 68.819096,-57.181402 0,-89.255991 Z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path1231"
+         inkscape:label="Face:17"
+         style="fill:#c30000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linejoin:round;stroke-opacity:1"
+         d="m -26.286556,-67.851703 52.573112,79.832984 42.53254,-69.162683 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path1233"
+         inkscape:label="Face:11"
+         style="fill:#9f0000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linejoin:round;stroke-opacity:1"
+         d="m -68.819096,22.651582 -16.245985,-62.568074 16.245985,97.097894 z"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path1235"
+         inkscape:label="Face:10"
+         style="fill:#e50000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linejoin:round;stroke-opacity:1"
+         d="m 26.286556,11.981281 -52.573112,-79.832984 -42.53254,90.503285 z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <ellipse
+       style="opacity:1;fill:#f9aaaf;fill-opacity:0.98009949;stroke:#000000;stroke-width:0.87395471;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path1821-4"
+       cx="88.889259"
+       cy="284.59164"
+       rx="4.3611116"
+       ry="3.6537964" />
+    <ellipse
+       style="opacity:1;fill:#f9aaaf;fill-opacity:0.98009949;stroke:#000000;stroke-width:0.87395471;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path1821-4-7"
+       cx="79.245415"
+       cy="285.50742"
+       rx="4.3611121"
+       ry="3.6537964" />
+    <ellipse
+       style="opacity:1;fill:#f9aaaf;fill-opacity:0.98009949;stroke:#000000;stroke-width:0.87395471;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path1821-4-1"
+       cx="70.02462"
+       cy="285.64105"
+       rx="4.3611121"
+       ry="3.6537964" />
+    <ellipse
+       style="opacity:1;fill:#f9aaaf;fill-opacity:0.98009949;stroke:#000000;stroke-width:0.87395471;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path1821-4-3"
+       cx="61.071087"
+       cy="285.64105"
+       rx="4.3611121"
+       ry="3.6537964" />
+    <ellipse
+       style="opacity:1;fill:#f9aaaf;fill-opacity:0.98009949;stroke:#000000;stroke-width:1.02732837;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path1821-4-6"
+       cx="49.31123"
+       cy="283.63654"
+       rx="6.1553121"
+       ry="3.5771096" />
+    <ellipse
+       style="opacity:1;fill:#b3b3b3;fill-opacity:0.98009949;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path1274"
+       cx="68.602676"
+       cy="275.83334"
+       rx="55.373512"
+       ry="6.4255953" />
+    <ellipse
+       style="opacity:1;fill:#dbdbdb;fill-opacity:0.9800995;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path1819"
+       cx="68.791664"
+       cy="278.29019"
+       rx="32.127975"
+       ry="3.2127976" />
+  </g>
+</svg>

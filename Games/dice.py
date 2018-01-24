@@ -62,4 +62,7 @@ def drop(result, num, lowest=True):
     return [result[:num], result[num:]]
   else: #Drop the highest x numbers
     result.sort()
-    return[result[:num].sort(reverse=True), result[num:].sort(reverse=True)]
+    result = [result[:num], result[num:]]
+    result[0].sort(reverse=True)
+    result[1].sort(reverse=True)
+    return(result)
